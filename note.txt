@@ -1,0 +1,5 @@
+1. Design Demonstration
+2. Template Bootstraping
+3. Themeforest Package File ready 
+      - select theme font and color
+4. Sass Environement
