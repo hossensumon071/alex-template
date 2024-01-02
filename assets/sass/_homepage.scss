@@ -1,7 +1,7 @@
 /*==========
 Hero section styles
 ===========*/
-.hero {
+.hero-section {
     background: url("../images/banner-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,3 +42,37 @@ Hero section styles
         }
     }
 }
+
+/*=============
+Featured section
+=============*/
+
+.featured-section {
+    margin-top: -170px;
+    z-index: 2;
+    position: relative;
+
+    .feature-item {
+        padding: 50px 46px;
+        background-color: #fff;
+        transition: all .4s ease;
+    
+        h3 {
+            margin: 40px 0;
+            transition: all .4s ease;
+        }
+    
+        p {
+            margin-bottom: 0;
+        }
+    
+        &:hover {
+            box-shadow: 0 5px 83px 0 rgba(40, 40, 40, 0.12);
+            background-color: #fff;
+            h3 {
+                color: $primary-color;
+            }
+        }
+    }
+}
+

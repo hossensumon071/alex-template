@@ -273,7 +273,7 @@ Navigation Menu
 /*==========
 Hero section styles
 ===========*/
-.hero {
+.hero-section {
   background: url("../images/banner-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@ Hero section styles
   position: relative;
   z-index: 1;
 }
-.hero::before {
+.hero-section::before {
   position: absolute;
   content: "";
   top: 0;
@@ -292,7 +292,7 @@ Hero section styles
   opacity: 0.89;
   z-index: -1;
 }
-.hero .hero-content .subheading {
+.hero-section .hero-content .subheading {
   text-transform: uppercase;
   font-size: 16px;
   display: inline-block;
@@ -301,11 +301,42 @@ Hero section styles
   color: #fff;
   margin-bottom: 35px;
 }
-.hero .hero-content h1 {
+.hero-section .hero-content h1 {
   color: #fff;
   line-height: 1.3;
   margin-bottom: 50px;
 }
-.hero .hero-content .btn-theme {
+.hero-section .hero-content .btn-theme {
   margin-right: 30px;
+}
+
+/*=============
+Featured section
+=============*/
+.featured-section {
+  margin-top: -170px;
+  z-index: 2;
+  position: relative;
+}
+.featured-section .feature-item {
+  padding: 50px 46px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.featured-section .feature-item h3 {
+  margin: 40px 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.featured-section .feature-item p {
+  margin-bottom: 0;
+}
+.featured-section .feature-item:hover {
+  -webkit-box-shadow: 0 5px 83px 0 rgba(40, 40, 40, 0.12);
+          box-shadow: 0 5px 83px 0 rgba(40, 40, 40, 0.12);
+  background-color: #fff;
+}
+.featured-section .feature-item:hover h3 {
+  color: #362bc7;
 }
