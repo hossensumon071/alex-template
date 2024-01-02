@@ -1,21 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--============== Bootstrap css ================-->
-    <link href="./assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="./assets/vendors/bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!--============== main css ================-->
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet" />
 
     <title>Alex-startup agency template</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="header-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3">
+            <div class="header-logo">
+              <h3>Alex</h3>
+            </div>
+          </div>
 
-
-
-
+          <div class="col-xl-9">
+            <div class="d-flex align-items-center justify-content-between">
+              <nav class="main-menu" id="main-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Services</a>
+                    <ul class="submenu">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Web Development</a></li>
+                      <li class="mega-menu-items">
+                        <a href="#">mega menu</a>
+                        <ul class="submenu mega-submenu">
+                          <li><a href="#">Web Design</a></li>
+                          <li><a href="#">Web Development</a></li>
+                          <li><a href="#">Webflow</a></li>
+                          <li><a href="#">UI/UX Design</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Webflow</a></li>
+                      <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="header-btn">
+                <a href="#" class="btn btn-gray-outline btn-sm">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!--============== Main Jquery ================-->
     <script src="./assets/vendors/jquery/jquery.min.js"></script>

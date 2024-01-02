@@ -2,6 +2,11 @@
 common styles
 =================== */
 
+ol, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 a {
     transition: all .4s ease;
     color: #000000;
@@ -59,4 +64,35 @@ Spacing style
 
 .mb-100 {
     margin-bottom: 100px;
+}
+
+
+/*============
+Buttons
+============*/
+
+.btn {
+    font-family: $heading-font;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    border-radius: 2px;
+    padding: 20px 35px;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+}
+
+.btn-gray-outline {
+    border-color: #000000;
+    background: transparent;
+
+    &:hover {
+        background: $primary-color;
+        color: #fff;
+        border-color: $primary-color;
+    }
+}
+
+.btn-sm {
+    padding: 13px 25px;
 }
