@@ -3,8 +3,11 @@ Navigation Menu
 =================*/
 
 .header-menu {
-    background: #232f3a;
+    position: absolute;
+    width: 100%;
     padding: 50px 0;
+    top: 0;
+    z-index: 9999;
 
     .header-logo h3{
         color: #fff;
